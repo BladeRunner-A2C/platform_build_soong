@@ -34,10 +34,10 @@ var (
 		"armv8-2a-dotprod":   {"-march=armv8.2-a+dotprod"},
 		"armv8-5a":           {"-march=armv8.5-a"},
 		"armv8-7a":           {"-march=armv8.7-a"},
-		"armv9-a":            {"-march=armv9-a+crypto"},
-		"armv9-2a":           {"-march=armv9.2-a+crypto"},
-		"armv9-3a":           {"-march=armv9.3-a+crypto"},
-		"armv9-4a":           {"-march=armv9.4-a+crypto"},
+		"armv9-a":            {"-march=armv9-a+crypto+nosve"},
+		"armv9-2a":           {"-march=armv9.2-a+crypto+nosve"},
+		"armv9-3a":           {"-march=armv9.3-a+crypto+nosve"},
+		"armv9-4a":           {"-march=armv9.4-a+crypto+nosve"},
 	}
 
 	arm64ArchFeatureCflags = map[string][]string{
